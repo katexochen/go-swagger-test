@@ -1,0 +1,68 @@
+{
+  "swagger": "2.0",
+  "paths": {},
+  "definitions": {
+    "First": {
+      "type": "object",
+      "title": "First is described in this line."
+    },
+    "Fourth": {
+      "description": "Fourth is described in this line",
+      "type": "object"
+    },
+    "Second": {
+      "description": "Second is described in this line",
+      "type": "object"
+    },
+    "Third": {
+      "type": "object",
+      "title": "Third is described in this line."
+    }
+  },
+  "responses": {
+    "firstResponse": {
+      "description": "",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "R": {
+            "$ref": "#/definitions/First"
+          }
+        }
+      }
+    },
+    "fourthResponse": {
+      "description": "",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "R": {
+            "$ref": "#/definitions/Fourth"
+          }
+        }
+      }
+    },
+    "secondResponse": {
+      "description": "",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "R": {
+            "$ref": "#/definitions/Second"
+          }
+        }
+      }
+    },
+    "thirdResponse": {
+      "description": "",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "R": {
+            "$ref": "#/definitions/Third"
+          }
+        }
+      }
+    }
+  }
+}
